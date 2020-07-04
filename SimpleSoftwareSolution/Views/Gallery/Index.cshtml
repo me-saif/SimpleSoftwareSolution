@@ -1,1 +1,16 @@
-﻿
+﻿@model SimpleSoftwareSolution.Models.GalleryIndexModel
+
+<link href="~/css/custom.css" rel="stylesheet" />
+
+
+<h3 class="text-center">Gallery</h3>
+<div class="container body-content">
+    <div class="row gallery-content">
+        @foreach (var image in Model.Images)
+        {
+            <div class="gallery-image-container">
+                <div class="gallery-image" style="background-image:url(@image.Url)"></div>
+            </div>
+        }
+    </div>
+</div>
