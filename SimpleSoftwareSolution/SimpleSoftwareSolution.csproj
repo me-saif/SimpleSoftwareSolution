@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SimpleSoftwareSolution.Data\SimpleSoftwareSolution.Data.csproj" />
+    <ProjectReference Include="..\SimpleSoftwareSolution.Services\SimpleSoftwareSolution.Services.csproj" />
   </ItemGroup>
 
 </Project>
